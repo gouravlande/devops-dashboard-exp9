@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-dashboard
-        image: devops-dashboard:latest
-        imagePullPolicy: Never
+        image: gouravlande/devops-dashboard:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
